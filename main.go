@@ -29,6 +29,7 @@ func main() {
 	var cx, cy, cr float64 = 0, 0, 5
 	fmt.Println(rectangleArea(rx1, ry1, rx2, ry2))
 	fmt.Println(circleArea(cx, cy, cr))
+	fmt.Println("Yes")
 
 	/*x := make(map[string]int)
 	x["key"] = 10
