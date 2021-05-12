@@ -30,12 +30,7 @@ func main() {
 	fmt.Println(rectangleArea(rx1, ry1, rx2, ry2))
 	fmt.Println(circleArea(cx, cy, cr))
 
-	/*x := make(map[string]int)
-	x["key"] = 10
-	x["old"] = 15
-	x["jonn"] = 30
-	delete(x, "old")
-	fmt.Println(x) */
+	
 
 }
 
@@ -59,72 +54,3 @@ func (linkedList List) Size() int {
 	}
 	return size
 }
-
-/*func main() {
-	someVariable := "some text"
-	ourCallback := func() {
-		someVariable = "Other"
-		fmt.Println(someVariable)
-	}
-	runCallback(ourCallback)
-}
-
-func runCallback(callback func()) {
-	callback()
-}*/
-
-/*printInterfaceVal(10)
-	printInterfaceVal("string")
-	printInterfaceVal(true)
-}
-
-func printInterfaceVal(v interface{}) {
-	switch v.(type) {
-	case int:
-		fmt.Printf("целое число: %d\n", v)
-	case string:
-		fmt.Printf("строка: %s\n", v)
-	case bool:
-		fmt.Printf("булев тип: %t\n", v)
-	}
-}
-
-/* fmt.Print("Enter a number: ")
-var input float64
-fmt.Scanf("%f", &input)
-output := input * 2
-fmt.Println(output)
-
-number := 0
-
-for i := 20; i > 0; i-- {
-	number = i
-}
-
-println(number)
-
-//	for i := 1; i < 100; i *= 2 {
-//		i += 4
-
-//		if i%2 == 0 {
-//			println("чётное")
-//		}
-//	}
-
-var theMatrixMoviePartsCount = 3
-
-fmt.Printf("У фильма 'Матрица' %d части", theMatrixMoviePartsCount)
-
-const maxCounter = 100
-
-var counter int
-
-for working := true; working != true; {
-	counter++
-
-	if counter >= 100 {
-		println(counter)
-
-		working = false
-	}
-}*/
